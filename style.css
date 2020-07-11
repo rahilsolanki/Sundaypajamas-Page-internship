@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+ }
+ body{
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+ }
+ nav{
+     background: #FFFFFF;
+     position: absolute;
+     width: 100%;
+     height: 70px;
+     left: 0px;
+     top: 0px;
+
+ }
+ nav ul{
+     float: right;
+     margin-right: 10px;
+ }
+ nav ul li{
+     display: inline-block;
+     line-height: 60px;
+     margin: 0 20px;
+ }
+ nav ul li a{
+     color: #737373;
+ }
+ nav ul button{
+     background-color: #CC3743;
+ }
+ .first{
+     width: 100%;
+     position: absolute;
+     height: 375px;
+     left: 0px;
+     right: 0px;
+     top: 56px;
+ }
+ .second{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 680px;
+    top: 393px;
+    background: #FFFFFF;
+ }
+ h1{
+    position: absolute;
+    width: 700px;
+    height: 60px;
+    left: calc(50% - 736px/2 - 224px);
+    top: 566px;
+    
+  
+    
+    font-family: Tiempos Headline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    
+    
+    
+    color: #000000;
+ }
+ p{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: #737373;
+    position: absolute;
+    width: 738px;
+    height: 90px;
+    left: calc(50% - 736px/2 - 224px);
+    top: 629px;
+    
+ }
+ h2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: #CC3743;
+    position: absolute;
+    width: 261px;
+    height: 55px;
+    left: calc(50% - 736px/2 - 224px);
+    top: 810px;
+    
+ }
+ p1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: #737373;
+    position: absolute;
+    width: 451px;
+    height: 212px;
+    left: calc(50% - 736px/2 - 224px);
+    top: 870px;
+ }
+.f1{
+    position: absolute;
+    width: 371px;
+    height: 383px;
+    left: 781px;
+    top: 765px;
+
+}
+.f2{
+    position: absolute;
+    width: 100%;
+    height: 222px;
+    left: 0px;
+    top: 1230px;
+}
+
+p2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: #737373;
+    position: absolute;
+    width: 1123px;
+    height: 125px;
+    left: 400px;
+    top: 1543px;
+}
+
+.pre{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    color: #CC3743;
+    position: absolute;
+    width: 137px;
+    height: 34px;
+    left: 1021px;
+    top: 1751px;
+}
+.nex{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    color: #CC3743;
+    position: absolute;
+    width: 77px;
+    height: 34px;
+    left: 1121px;
+    top: 1751px;
+
+}
+
+.footer{
+    
+    position: absolute;
+    width: 100%;
+    height: 551px;
+    left: 0px;
+    bottom: -1625px;
+
+    background: #CC3743;
+
+}
+.a1{
+    position: absolute;
+width: 30.41px;
+height: 30.41px;
+left: 165px;
+bottom: 466.79px;
+
+}
+.a2{
+    position: absolute;
+width: 30.41px;
+height: 30.41px;
+left: 235.42px;
+bottom: 466.79px;
+
+}.a3{
+    position: absolute;
+width: 30.41px;
+height: 30.41px;
+left: 305.83px;
+bottom: 466.79px;
+}
+.a4{
+
+position: absolute;
+width: 30.41px;
+height: 30.41px;
+left: 376.25px;
+bottom: 466.79px;
+}
+.community{
+    position: absolute;
+    width: 231px;
+    height: 149.68px;
+    left: 147px;
+    top: 2005px;
+}
+
+.b1{
+    position: absolute;
+width: 212px;
+height: 54px;
+left: 166px;
+bottom: 360px;
+
+font-family: Tiempos Headline;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+line-height: 58px;
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.b2{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 229px;
+height: 36.68px;
+left: 154px;
+bottom: 320.32px;
+
+
+}
+.b3{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 170px;
+height: 36.68px;
+left: 154px;
+bottom: 293.32px;
+
+
+}
+.b4{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+
+position: absolute;
+width: 174px;
+height: 36.68px;
+left: 154px;
+bottom: 270px;
+font-family: Tiempos Headline;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.c1{
+    position: absolute;
+width: 176px;
+height: 53.95px;
+left: 456px;
+bottom: 359.05px;
+
+font-family: Tiempos Headline;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+line-height: 58px;
+
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.c2{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 147px;
+height: 36.68px;
+left: 445px;
+bottom: 319.32px;
+
+
+}
+.c3{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 130px;
+height: 36.68px;
+left: 445px;
+bottom: 291.32px;
+
+
+}
+.c4{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 134px;
+height: 36.68px;
+left: 445px;
+bottom: 263.32px;
+
+
+}
+.d1{
+    position: absolute;
+width: 176px;
+height: 53.95px;
+left: 709px;
+bottom: 359.05px;
+
+font-family: Tiempos Headline;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+line-height: 58px;
+
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.d2{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 144px;
+height: 36.68px;
+left: 700px;
+bottom: 319.32px;
+}
+.d3{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 174px;
+height: 34px;
+left: 700px;
+bottom: 294px;
+
+
+}
+.d4{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 257px;
+height: 36.68px;
+left: 700px;
+bottom: 263.32px;
+
+
+}
+.e1{
+    position: absolute;
+width: 140.17px;
+height: 54px;
+left: 1011.87px;
+bottom: 360px;
+
+font-family: Tiempos Headline;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+line-height: 58px;
+/* or 288% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.e2{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 253px;
+height: 36.68px;
+left: 1005px;
+bottom: 320.32px;
+
+}
+.e3{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 201px;
+height: 36.68px;
+left: 1005px;
+bottom: 290.47px;
+
+
+}
+.e4{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 174px;
+height: 36.68px;
+left: 1005px;
+bottom: 263.32px;
+
+
+}
+
+.i1{
+    display: flex;
+flex-direction: row;
+padding: 0px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 169px;
+height: 24px;
+left: 635px;
+bottom: 85px;
+
+
+}
+.i2{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 154px;
+height: 24px;
+left: 583px;
+bottom: 61px;
+
+
+}
+.i3{
+    display: flex;
+flex-direction: row;
+padding: 5px 10px;
+color: #FFFFFF;
+position: absolute;
+width: 139px;
+height: 24px;
+left: 700px;
+bottom: 61px;
+
+}
+.center{
+    position: absolute;
+width: 100%;
+height: 222px;
+left: 0px;
+top: 1230px;
+
+background: #C4C4C4
+}
+.l1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: #5B5050;
+    position: absolute;
+    width: 170px;
+    height: 100px;
+    left: 148px;
+    top: 60px;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 80px;
+}
+.l2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+    position: absolute;
+    width: 272px;
+    height: 95px;
+    left: 325px;
+    top: 60px;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+.l3{
+    display: flex;
+flex-direction: row;
+padding: 10px;
+color: #5B5050;
+position: absolute;
+width: 166px;
+height: 100px;
+left: 781px;
+top: 60px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 80px;
+}
+.l4{
+    display: flex;
+flex-direction: row;
+padding: 10px;
+
+position: absolute;
+width: 272px;
+height: 95px;
+left: 958px;
+top: 60px;
+
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+}
+
+ 
+
+ 
+
+ 
+
+ 
